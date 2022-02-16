@@ -1,13 +1,5 @@
 /// <reference types="@sveltejs/kit" />
 
-// type WindiAttributify = `w${Capitalize<string>}`;
-// declare namespace svelte.JSX {
-// 	type HTMLProps<T> = {
-// 		[k in WindiAttributify]?: string;
-// 	} &
-// 		HTMLProps<T>;
-// }
-
 declare namespace svelte.JSX {
 	export declare type UtilityNames =
 		| 'p'
